@@ -13,7 +13,9 @@ const Projects = () => {
                         <h1>E-Commerce</h1>
                     </div>
                     <div className='project1'>
-                        <img id='project-photo' src="./images/ecommerce1.png" alt="" />
+                        <a href="https://incandescent-panda-26554f.netlify.app/">
+                            <img id='project-photo' src="./images/ecommerce1.png" alt="" />
+                        </a>
                     </div>
                 </ProjectItems>
             </ProjectSection>
