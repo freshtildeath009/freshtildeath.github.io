@@ -1,0 +1,86 @@
+/* Default Style Setting */
+:root {
+
+  /* Header */
+  --fs-logo-header: 3rem;
+  --fs-menu-header: 6rem;
+  --fs-menu-header: 1.1rem;
+  --fw-header: 700;
+  --ff-logo-header: sans-serif;
+  --tclr-header: rgb(33, 37, 41);
+  --bclr-header: linear-gradient(rgb(167, 112, 11), rgb(197, 133, 13));
+
+  /* Font Family */
+  --ff-title: sans-serif;
+  --ff-subtitle: sans-serif;
+  --ff-paragraph: sans-serif;
+  --ff-general: sans-serif;
+
+  /* Font Size */
+  --fs-titlel: 6rem;
+  --fs-titlem: 4rem;
+  --fs-titles: 3rem;
+  --fs-titlexs: 3rem;
+  --fs-subtitle: 1.5rem;
+  --fs-paragraphl: 1.5rem;
+  --fs-paragraphm: 1.2rem;
+  --fs-paragraphs: 1rem;
+
+  /* Photo size */
+  --photo-art-sizexl: 600px;
+  --photo-art-sizel: 550px;
+  --photo-art-sizem: 400px;
+  --photo-art-sizes: 320px;
+  --photo-art-sizexs: 200px;
+  --photo-art-sizexxs: 150px;
+  /* Font Weight */
+  --fw-title: 700;
+  --fw-subtitle: 500;
+  --fw-paragraph: 400;
+
+  /* Text Color */
+  --tclr-primary: rgb(0, 0, 0);
+  --tclr-secondary: rgb(240, 248, 255);
+
+  /* Box shadow */
+  --bx-shdw-top: 0px 0px 20px 3px rgba(0, 0, 0, 0.5);
+  --bx-shdw-bottom: 0 15px 15px 0px rgba(0, 0, 0, 0.5);
+  --bx-shdw-prjct: 0 15px 15px 0px rgba(0, 0, 0, 0.5);
+  /* Background Color */
+  --bclr: linear-gradient(rgb(197, 133, 13)50%, rgb(255, 187, 0));
+  --bclr1: linear-gradient(rgb(216, 10, 171)50%, rgba(247, 0, 255, 0.322));
+  --bclr-contact: rgb(24, 26, 27);
+  --bclr-secondary: rgb(240, 248, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+
+body {
+  background-color: rgb(255, 235, 205);
+  text-rendering: optimizeSpeed;
+  line-height: 1.2;
+  letter-spacing: 1.2px;
+}
+
+a {
+  text-decoration: none;
+}
