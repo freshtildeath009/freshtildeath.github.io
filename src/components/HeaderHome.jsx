@@ -33,6 +33,7 @@ const HeaderHome = () => {
         console.log(screenTop);
     }
     window.addEventListener("click", _handleRemoveMenuOnScroll)
+
     return (
         <>
 

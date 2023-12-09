@@ -17,6 +17,10 @@
   --ff-general: sans-serif;
 
   /* Font Size */
+  --fs-namel: 6rem;
+  --fs-namem: 3rem;
+  --fs-names: 2.5rem;
+
   --fs-titlel: 6rem;
   --fs-titlem: 4rem;
   --fs-titles: 3rem;

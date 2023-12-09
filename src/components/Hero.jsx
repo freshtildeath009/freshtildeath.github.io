@@ -5,7 +5,7 @@ const Hero = () => {
         <>
             <HeroSection>
                 <p id='thinking'></p>
-                <h1 id='hero-name'>Pingu</h1>
+                <h1 id='hero-name'>@Object_Vis</h1>
                 <h4 id='hero-job'>Web Developer</h4>
 
             </HeroSection>
@@ -27,13 +27,19 @@ const HeroSection = styled.section`
     box-shadow: var(--bx-shdw-bottom);
     font-family: var(--ff-general);
         #hero-name{
-            font-size: var(--fs-titlel);
+            font-size: var(--fs-namel);
             font-weight: var(--fw-title);
         }
 
         #hero-job{
             font-size: var(--fs-paragraphl);
             font-weight: var(--fw-subtitle);
+        }
+
+        @media (max-width: 1024px){
+            #hero-name{
+                font-size: var(--fs-namem);
+            }
         }
 
         @media (max-width: 768px){
@@ -46,11 +52,11 @@ const HeroSection = styled.section`
                 font-size: var(--fs-paragraphm);
             }
         }
-
+        
         @media (max-width: 550px){
 
             #hero-name{
-                font-size: var(--fs-titles);
+                font-size: var(--fs-names);
             }
 
             #hero-job{
