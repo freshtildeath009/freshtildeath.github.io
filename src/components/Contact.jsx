@@ -18,7 +18,7 @@ const Contact = () => {
                 <span id='contact'></span>
                 <img id='payaso' src="./images/payaso.png" alt="" />
                 <h1 id="contact-text" onMouseOver={_handleContactHover} onMouseLeave={_handleContactHoverLeave}>{isContactHover ? "ME!" : "CONTACT"}</h1>
-                <form className="form" action="https://formsubmit.co/visrobis@gmail.com" method="POST">
+                <form className="form" action="https://formsubmit.co/27222e9217ad0a340851c1d4bddc0066" method="POST">
                     <input id="input" name='name' type="text" required="required" placeholder='your name' />
                     <input id="input" name='email' type="email" required="required" placeholder='your_email@gmail.com' />
                     <textarea type="text" name="message" id="input" cols="30" rows="10" required="required" placeholder='message me!'></textarea>
