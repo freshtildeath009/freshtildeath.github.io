@@ -1,7 +1,8 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const Projects = () => {
+
     return (
         <>
             <ProjectSection>
@@ -10,10 +11,10 @@ const Projects = () => {
                 <ProjectItems>
 
                     <div className='title1'>
-                        <h1>E-Commerce</h1>
+                        <h1 id='subtitle'>E-Commerce</h1>
                     </div>
                     <div className='project1'>
-                        <a href="https://incandescent-panda-26554f.netlify.app/">
+                        <a href="https://shop-62744a.netlify.app">
                             <img id='project-photo' src="./images/ecommerce1.png" alt="" />
                         </a>
                     </div>
@@ -54,14 +55,20 @@ const ProjectSection = styled.div`
 
         @media (max-width: 550px){
             #project-text {
-                font-size: var(--fs-titles);
+                font-size: 2rem;
+            }
+
+            #subtitle {
+                font-size: 1.3rem;
             }
         }
 
         @media (max-width: 320px){
             #project-text {
-                font-size: var(--fs-titlexs);
+                font-size: 1.6rem;
             }
+
+            
         }
 `
 const ProjectItems = styled.div`
@@ -91,11 +98,11 @@ const ProjectItems = styled.div`
             overflow: hidden;
         }
 
+
         #project-photo{
             height: 100%;
             width: 100%;
-            
-            
+            object-fit: fill; 
         }
         @media (max-width: 768px){
             grid-template-columns: 1fr;

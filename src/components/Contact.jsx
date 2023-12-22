@@ -148,7 +148,8 @@ const ContactSection = styled.section`
             }
 
             #contact-text{
-                font-size: var(--fs-titles);
+                margin-top: 1.5rem;
+                font-size: 2rem;
             }
 
             #input{
@@ -159,6 +160,7 @@ const ContactSection = styled.section`
     
             #btn-message{
                 width: 150px;
+                font-size: 0.9rem;
             }
         }
 
@@ -168,16 +170,17 @@ const ContactSection = styled.section`
             }
 
             #contact-text{
-                font-size: var(--fs-titlexs);
+                font-size: 1.6rem;
             }
 
             #input{
                 width: 250px;
-                font-size: 1rem;
+                font-size: 0.8rem;
     
             }
     
             #btn-message{
+                font-size: 0.8rem;
                 width: 110px;
             }
         }

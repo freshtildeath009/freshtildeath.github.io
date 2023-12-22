@@ -62,13 +62,13 @@ const AboutSection = styled.section`
             flex-direction: column;
             overflow: hidden;
             position: absolute;
-            bottom: -270px;
+            bottom: -260px;
             cursor: pointer;
         }
         
         #profile0{
-            height: var(--photo-art-sizl);
-            width: 550px;
+            height: var(--photo-art-sizel);
+            width: 520px;
         }
 
         .text{
@@ -155,10 +155,10 @@ const AboutSection = styled.section`
                 padding-top: 80px;
             }
             #about-text{
-                font-size: var(--fs-titles);
+                font-size: 2rem;
             }
             #about-paragraph{
-                font-size: var(--fs-paragraphs)
+               font-size: 0.8em;;
             }
         }
 
@@ -178,7 +178,12 @@ const AboutSection = styled.section`
             }
 
             .text{
-                padding-top: 50px;
+                padding-top: 60px;
+            }
+
+            #about-paragraph{
+                font-size: 0.8em;
+                width: 80%;
             }
         }
 
@@ -191,10 +196,12 @@ const AboutSection = styled.section`
                 height: var(--photo-art-sizexxs);
             }
             .text{
-                padding-top: 30px;
+                padding-top: 40px;
             }
+
             #about-text{
-                font-size: var(--fs-titlexs);
+                font-size: 1.6rem;
             }
+           
         }
 `

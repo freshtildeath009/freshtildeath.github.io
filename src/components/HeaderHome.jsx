@@ -8,7 +8,7 @@ const HeaderHome = () => {
     const _handleHomeClick = () => {
         let home = isHome;
         setIsHome(home = true)
-        window.scrollTo(0, 100)
+        window.scrollTo(0, 0)
     }
 
     const _handleBlogClick = () => {

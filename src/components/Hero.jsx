@@ -28,7 +28,7 @@ const HeroSection = styled.section`
     font-family: var(--ff-general);
         #hero-name{
             font-size: var(--fs-namel);
-            font-weight: var(--fw-title);
+            font-weight: 900;
         }
 
         #hero-job{
@@ -56,7 +56,7 @@ const HeroSection = styled.section`
         @media (max-width: 550px){
 
             #hero-name{
-                font-size: var(--fs-names);
+                font-size: var(--fs-titlexxs);
             }
 
             #hero-job{
@@ -64,9 +64,24 @@ const HeroSection = styled.section`
             }
         }
 
-        @media (max-width: 320px) {
+        @media (max-width: 450px){
+
             #hero-name{
-                font-size: var(--fs-titlexs);
+                font-size: 2rem;
+            }
+
+            #hero-job{
+                font-size: var(--fs-paragraphs);
             }
         }
+        @media (max-width: 320px) {
+            #hero-name{
+                font-size: var(--fs-titlexxxs);
+            }
+            #hero-job{
+                font-size: var(--fs-0-9);
+            }
+        }
+
+        
 `

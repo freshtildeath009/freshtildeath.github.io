@@ -25,6 +25,10 @@
   --fs-titlem: 4rem;
   --fs-titles: 3rem;
   --fs-titlexs: 3rem;
+  --fs-titlexxs: 2.5rem;
+  --fs-titlexxxs: 1.5rem;
+  --fs-titlexxs: 2.5rem;
+  --fs-0-9: 0.9rem;
   --fs-subtitle: 1.5rem;
   --fs-paragraphl: 1.5rem;
   --fs-paragraphm: 1.2rem;
@@ -32,7 +36,7 @@
 
   /* Photo size */
   --photo-art-sizexl: 600px;
-  --photo-art-sizel: 550px;
+  --photo-art-sizel: 500px;
   --photo-art-sizem: 400px;
   --photo-art-sizes: 320px;
   --photo-art-sizexs: 200px;
